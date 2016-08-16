@@ -19,7 +19,7 @@ public class ThrillerGameApplication {
 		return new WebMvcConfigurerAdapter() {
 			@Override
 			public void addCorsMappings(CorsRegistry registry) {
-				registry.addMapping("/player").allowedOrigins("http://localhost:8080");
+				registry.addMapping("/player").allowedOrigins("https://the-nightmare-2cc0c.firebaseapp.com");
 			}
 		};
 	}
